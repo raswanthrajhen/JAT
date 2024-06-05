@@ -5,10 +5,14 @@ import java.util.Scanner;
 public class StudentsMark {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	
 		Scanner sc=new Scanner(System.in);
+		
+		//Get the Student Mark
 		System.out.print("Enter the Student MARK");
 		int mark=sc.nextInt();
+		
+		//Out will given depend upon the Mark
 		if(mark<=100) {
 			if(mark==100)
 				System.out.println("S");

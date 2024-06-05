@@ -5,14 +5,17 @@ import java.util.Scanner;
 public class Palindrom {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
+		
+		// Get the String from the user
 		System.out.println("Enter the String");
 		String palindromString=sc.nextLine();
 		int value=palindromString.length();
 		value=value-1;
 		char[] flagPalindrom=palindromString.toCharArray();
 		int j=0,flag=0;
+		
+		//Validate the String as Palindrome or Not
 		for(int i=value;i>=0;i--) {
 			if(flagPalindrom[i]==flagPalindrom[j]) {
 				j++;
