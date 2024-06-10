@@ -1,6 +1,5 @@
 package Task10;
 
-import java.math.BigDecimal;
 
 public class BankAcount {
 	private String accountHolderName;
